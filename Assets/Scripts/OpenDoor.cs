@@ -19,7 +19,7 @@ public class OpenDoor : MonoBehaviour {
     void OnCollisionEnter(Collision coll)
     {
         Debug.Log("touched");
-        animation.Play("DoorOpen");
+        animation.Play("doorOpen");
 
     }
 }
